@@ -28,7 +28,7 @@ class handler(BaseHTTPRequestHandler):
       country=data[0]['name']['common']
       message= f'{capital} is the capital of {country}'
     else:
-      message= "Invalid country name, try again"
+      message= "Invalid capital name, try again"
 
 
 
